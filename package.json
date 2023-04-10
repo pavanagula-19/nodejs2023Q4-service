@@ -1,0 +1,27 @@
+{
+  "name": "nodejs2023q4-service",
+  "version": "1.0.0",
+  "description": "artist albums",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavanagula-19/nodejs2023Q4-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavanagula-19/nodejs2023Q4-service/issues"
+  },
+  "homepage": "https://github.com/pavanagula-19/nodejs2023Q4-service#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
