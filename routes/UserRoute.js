@@ -60,6 +60,4 @@ user.get("/user", async (req, res) => {
 //         });
 //     }
 // })
-
-user.put()
 module.exports = user
